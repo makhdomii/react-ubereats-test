@@ -1,0 +1,37 @@
+.search-location {
+  height: 415px;
+  position: relative;
+  .center-box {
+    z-index: 9999;
+    .input-group {
+      width: calc(100% - 130px);
+      background-color: #fff;
+      box-shadow: inset 0px -1px 0px #e0e0e0;
+      input {
+        border: none;
+        border-radius: none;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  .search-image {
+    position: absolute;
+    top: 0;
+  }
+  .right-item {
+    right: 0;
+  }
+  .left-item {
+    left: 0;
+  }
+  .submit-button {
+    background: #3e9920;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background: #609c4f;
+    }
+  }
+}
